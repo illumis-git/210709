@@ -1,0 +1,52 @@
+CSRF 토큰적용
+사이트 간 요청 위조 (Cross-site request forgery) 방어
+<meta name="keywords" content="벤치마크,하드웨어,PC,컴퓨터,CPU,그래픽카드,게임,온라인게임,모바일게임,콘솔게임,게임 정보,게임 출시,최신 게임">
+구글SEO를위함
+title : 사이트로직접연결되는 링크형태
+제목은 공백을포함 10~70글자
+가장중요하고 관련성이높은 키워드, 반복금지
+각 페이지는 고유의 제목으로
+
+description : 웹페이지의 축약된 설명 제공
+70 ~ 160글자
+주요, 설득력있는 키워드
+키워드로채우는것을 피하고 각페이지가 고유의 description을 갖도록
+
+keywords : 중요한 주제를 담고있는 간결하고 축약된 목록
+10~20 고유한 단어나 문구
+',' 로 키워드구분(공백필요없음)
+단어반복X
+목록의 처음에 가장 중요한 단어나 구문
+
+opengraph : 미리보기이미지, url링크에대한설명, 제목
+<meta property="og:type" content="website">
+해당 사이트의 종류는 '웹사이트' 이다.
+
+<meta name="google-site-verification" content="gJlKxRbBWp1VhNCV6RXgavCCtDQn9-1zbN2NYAxJDG4">
+사이트 소유권 확인
+확인된 소유자는 다른사용자에게 전체 또는 보기권한을 부여가능
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://quasarzone.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://quasarzone.com/searches?keyword={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+데이터 구조화
+구글검색시 사이트미리보기 가능
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://img2.quasarzone.com/homepage/real/themes/quasarzone/favicon/apple-touch-icon-57x57.png">
+favicon : 주소창에 표시되는 웹사이트를 대표하는 아이콘
+
+<meta name="application-name" content="Quasarzone">
+애플 스마트폰 '사파리' 웹브라우저에서동작
+웹사이트의 이름지정
+참조 : https://jeongah-story.tistory.com/202
+
+<meta name="msapplication-TileColor" content="#da532c">여기까지
