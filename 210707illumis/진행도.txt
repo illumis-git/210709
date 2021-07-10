@@ -1,5 +1,8 @@
 SourceTree 클론시 응답없음 자동종료됨 해결방법찾지못함. 노트북자원부족으로 추측
 githuDesktop사용, 테스트O
 mariaDB설치, 테스트X
-아파치설치, 테스트O
--PHP설치할차례
+아파치설치, 테스트O http://localhost/
+PHP설치, 테스트O - http://localhost/phpinfo.php
+
+포트번호에문제가있어 임의로수정
+20210
