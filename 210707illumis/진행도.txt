@@ -1,8 +1,14 @@
 SourceTree 클론시 응답없음 자동종료됨 해결방법찾지못함. 노트북자원부족으로 추측
 githuDesktop사용, 테스트O
 mariaDB설치, 테스트X
-아파치설치, 테스트O http://localhost/
-PHP설치, 테스트O - http://localhost/phpinfo.php
+아파치설치, 테스트O http://localhost:20210
+PHP설치, 테스트O - http://localhost:20210/phpinfo.php
 
 포트번호에문제가있어 임의로수정
-20210
+20210 - 재체크
+
+21_07_11 ServerName을 localhost로변경
+www.example.com > 127.0.0.1
+
+mariadb php연동테스트성공
+210712dbsqltest.php테스트성공

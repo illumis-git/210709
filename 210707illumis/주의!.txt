@@ -1,0 +1,5 @@
+.php파일을 작성하고 웹브라우저로 실행하려면
+.php파일을
+"Apache24\htdocs" 폴더로 옮겨야함
+
+mariadb passwd:210709
